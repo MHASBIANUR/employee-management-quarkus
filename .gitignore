@@ -1,0 +1,39 @@
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Frontend
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# Backend
+# =========================
+
+backend/employee-management-api/target/
+
+# Maven Wrapper Cache
+backend/employee-management-api/.mvn/wrapper/maven-wrapper.jar
+
+# Environment
+.env
+.env.*

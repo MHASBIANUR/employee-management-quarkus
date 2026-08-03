@@ -1,0 +1,212 @@
+/* ===========================
+   PAGE
+=========================== */
+
+.container{
+    width:90%;
+    max-width:1400px;
+    margin:auto;
+    padding:40px 0;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.page-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.page-header h1{
+    margin:0;
+    font-size:42px;
+    color:#1e293b;
+}
+
+.page-subtitle{
+    margin-top:8px;
+    color:#64748b;
+    font-size:16px;
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn-add{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px 22px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.25s;
+    box-shadow:0 8px 18px rgba(37,99,235,.25);
+}
+
+.btn-add:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+.btn-edit{
+    background:#f59e0b;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.2s;
+    margin-right:8px;
+}
+
+.btn-edit:hover{
+    background:#d97706;
+}
+
+.btn-delete{
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.btn-delete:hover{
+    background:#dc2626;
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+.employee-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.employee-table thead{
+    background:#eff6ff;
+}
+
+.employee-table th{
+    padding:18px;
+    text-align:left;
+    color:#1e293b;
+    font-weight:700;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.employee-table td{
+    padding:18px;
+    border-bottom:1px solid #f1f5f9;
+}
+
+.employee-table tbody tr{
+    transition:.2s;
+}
+
+.employee-table tbody tr:hover{
+    background:#f8fafc;
+}
+
+/* ===========================
+   FORM
+=========================== */
+
+.form-page{
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+}
+
+.form-card{
+    width:100%;
+    max-width:700px;
+    background:#fff;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.form-card h1{
+    margin-bottom:25px;
+    color:#1e293b;
+}
+
+.employee-form{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+}
+
+.employee-form label{
+    font-weight:600;
+    color:#374151;
+}
+
+.employee-form input,
+.employee-form select{
+    width:100%;
+    padding:12px;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+    font-size:15px;
+    transition:.2s;
+    box-sizing:border-box;
+}
+
+.employee-form input:focus,
+.employee-form select:focus{
+    outline:none;
+    border-color:#2563eb;
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+}
+
+.employee-form button{
+    margin-top:10px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.employee-form button:hover{
+    background:#1d4ed8;
+}
+
+.form-actions{
+    display:flex;
+    justify-content:flex-end;
+    gap:10px;
+    margin-top:20px;
+}
+
+.btn-secondary{
+    background:#64748b;
+    color:white;
+    border:none;
+    padding:12px 18px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.btn-secondary:hover{
+    background:#475569;
+}

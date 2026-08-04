@@ -1,23 +1,63 @@
 # Employee Management System
 
-A modern Full Stack Employee Management System built using **Quarkus** and **React**.
-
-## Features
-
--  Create Employee
--  Read Employee
--  Update Employee
--  Delete Employee
--  Form Validation
--  Exception Handling
--  REST API
--  Swagger Documentation
+A modern **Full Stack Employee Management System** built using **Quarkus** and **React**. This application provides complete employee management features with RESTful API integration and a responsive React frontend.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-### Backend
+- ✅ Create Employee
+- ✅ Read Employee
+- ✅ Update Employee
+- ✅ Delete Employee
+- ✅ Form Validation
+- ✅ Exception Handling
+- ✅ REST API
+- ✅ Swagger API Documentation
+
+---
+
+# 🖼 Application Preview
+
+## 📋 Employee List
+
+![Employee List](screenshots/Employee List.jpg)
+
+---
+
+## ➕ Add Employee
+
+![Add Employee](screenshots/add-employee.jpg)
+
+---
+
+## ✏️ Edit Employee
+
+![Edit Employee](screenshots/edit-employee.jpg)
+
+---
+
+## 🗑 Delete Employee
+
+![Delete Employee](screenshots/delete-employee.jpg)
+
+---
+
+## 🔄 Employee List (Updated)
+
+![Employee List Updated](screenshots/employee-list-update.jpg)
+
+---
+
+## 📚 Swagger API
+
+![Swagger API](screenshots/swagger-api.jpg)
+
+---
+
+# 🛠 Tech Stack
+
+## Backend
 
 - Java 21
 - Quarkus
@@ -26,7 +66,7 @@ A modern Full Stack Employee Management System built using **Quarkus** and **Rea
 - Jakarta Validation
 - REST API
 
-### Frontend
+## Frontend
 
 - React
 - TypeScript
@@ -36,9 +76,9 @@ A modern Full Stack Employee Management System built using **Quarkus** and **Rea
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
-```
+```text
 employee-management-quarkus
 │
 ├── backend
@@ -46,22 +86,31 @@ employee-management-quarkus
 │
 ├── frontend
 │
+├── screenshots
+│   ├── add-employee.jpg
+│   ├── delete-employee.jpg
+│   ├── edit-employee.jpg
+│   ├── Employee List.jpg
+│   ├── employee-list-update.jpg
+│   └── swagger-api.jpg
+│
+├── .gitignore
 └── README.md
 ```
 
 ---
 
-## Getting Started
+# 🚀 Getting Started
 
-### Clone Repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/employee-management-quarkus.git
+git clone https://github.com/MHASBIANUR/employee-management-quarkus.git
 ```
 
 ---
 
-### Backend
+## Backend
 
 ```bash
 cd backend/employee-management-api
@@ -69,7 +118,7 @@ cd backend/employee-management-api
 mvn quarkus:dev
 ```
 
-Backend runs on
+Backend runs at
 
 ```
 http://localhost:8080
@@ -83,7 +132,7 @@ http://localhost:8080/q/swagger-ui
 
 ---
 
-### Frontend
+## Frontend
 
 ```bash
 cd frontend
@@ -93,7 +142,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs on
+Frontend runs at
 
 ```
 http://localhost:5173
@@ -101,22 +150,24 @@ http://localhost:5173
 
 ---
 
-## API
+# 📌 REST API
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| GET | /employees | Get All Employees |
-| GET | /employees/{id} | Get Employee |
-| POST | /employees | Create Employee |
-| PUT | /employees/{id} | Update Employee |
-| DELETE | /employees/{id} | Delete Employee |
+| GET | `/employees` | Get All Employees |
+| GET | `/employees/{id}` | Get Employee by ID |
+| POST | `/employees` | Create Employee |
+| PUT | `/employees/{id}` | Update Employee |
+| DELETE | `/employees/{id}` | Delete Employee |
 
 ---
 
-## Author
+# 👨‍💻 Author
 
 **M. Hasbianur**
 
 GitHub:
 https://github.com/MHASBIANUR
 
+LinkedIn:
+https://linkedin.com/in/m-hasbianur

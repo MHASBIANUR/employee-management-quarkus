@@ -21,7 +21,7 @@ A modern **Full Stack Employee Management System** built using **Quarkus** and *
 
 ## 📋 Employee List
 
-![Employee List](screenshots/Employee List.jpg)
+![Employee List](screenshots/employee-list.jpg)
 
 ---
 

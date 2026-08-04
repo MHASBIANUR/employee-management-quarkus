@@ -4,7 +4,7 @@ A modern **Full Stack Employee Management System** built using **Quarkus** and *
 
 ---
 
-## ✨ Features
+## Features
 
 - ✅ Create Employee
 - ✅ Read Employee

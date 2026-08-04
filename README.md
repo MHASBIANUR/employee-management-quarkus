@@ -90,7 +90,7 @@ employee-management-quarkus
 │   ├── add-employee.jpg
 │   ├── delete-employee.jpg
 │   ├── edit-employee.jpg
-│   ├── Employee List.jpg
+│   ├── employee-list.jpg
 │   ├── employee-list-update.jpg
 │   └── swagger-api.jpg
 │
